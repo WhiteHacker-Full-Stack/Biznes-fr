@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "rubik";
+    color: #263238;
+    font-weight: 300;
+}
+body{
+    background: #E5E5E5;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+section{
+    margin: 250px 0px;
+}
+b{
+    font-weight: 500;
+}
+.h1{
+    font-size: 36px;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.center{
+    text-align: center;
+}
+h4{
+    font-weight: 500;
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+    opacity: 70%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: #FFFFFF;
+    width: 370px;
+    padding: 30px 30px 60px 30px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px #263238;
+    
+}
+.cards{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding: 15px 30px;
+    background: linear-gradient(to bottom,#5CB0FF, #0084FF);
+    border-radius: 81px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 60px;
+}
+
+/* skidka */
+.skidka .card{
+    width: 370px;
+}
+.skidka .h1{
+    margin-bottom: 30px;
+}
+
+/* skidka end */
+/* haqida */
+.haqida .card{
+    flex-direction: row;
+    width: 550px;
+}
+.text h4{
+    margin-bottom: 15px;
+
+}
+/* haqida end */
+
+/* bonus */
+.bonus .cards{
+    flex-wrap: wrap;
+}
+.bonus-card{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 45%;
+}
+/* bonus end */
+
+/* footer */
+
+.footer-content{
+    padding: 0 100px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-content .text{
+    width: 470px;
+    padding: 0 80px;
+    box-sizing: border-box;
+
+}
+.footer-content .h1{
+    width: auto;
+    margin: 15px 0;
+}
+.footer-content p{
+    margin-bottom: 30px;
+}
+
+/* footer end */
+
+
+
+
+
+@media (max-width:1200px) {
+    .container{
+        width: 991px;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width:991px) {
+    .container{
+        width: 720px;
+    } 
+    .bonus-card{
+        width: 90%;
+    }   
+}
+@media (max-width:768px) {
+    .container{
+        width: 540px;
+    }
+    .h1{
+        font-size: 30px;
+        width: 500px;
+    }
+    
+}
+
+@media (max-width:576px) {
+    .container{
+        width: 100%;
+    }
+    .h1{
+        width: 95%;
+        font-size: 25px;
+    }
+    .card{
+        width: 300px !important; 
+    }
+    .haqida .card{
+        flex-direction: column;
+        width: 95%;
+    }
+    .bonus-card{
+        flex-direction: column;
+        
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-content{
+        padding: 10px;
+    }
+    .footer-content img{
+        width: 100%;
+    }
+    .footer-content .text{
+        width: 95%;
+        font-size: 25px;
+        padding: 10px;
+    }
+    
+    
+}
+
+
